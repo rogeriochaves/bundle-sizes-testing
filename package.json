@@ -16,6 +16,7 @@
     "elm-webpack-loader": "^4.1.1",
     "flow-bin": "^0.37.4",
     "immutable": "^3.8.1",
+    "preact": "^7.1.0",
     "ramda": "^0.23.0",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",

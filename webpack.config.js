@@ -1,8 +1,10 @@
 module.exports = {
   entry: {
-    react: './react.js',
     elm: './elm.js',
-    reactComplete: './react-complete.js'
+    react: './react.js',
+    reactComplete: './react-complete.js',
+    preact: './preact.js',
+    preactComplete: './preact-complete.js'
   },
   output: {
     path: `${__dirname}/build`,
@@ -16,7 +18,7 @@ module.exports = {
         loader: 'elm-webpack-loader'
       },
       {
-        test: /react-complete.js$/,
+        test: /complete.js$/,
         exclude: /node_modules/,
         loader: 'babel-loader'
       }
