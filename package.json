@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "webpack -p --profile --json > stats.json && webpack-bundle-analyzer stats.json"
+    "build": "webpack -p --progress",
+    "test": "webpack -p --progress --profile --json > stats.json && webpack-bundle-analyzer stats.json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "elm-webpack-loader": "^4.1.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
     "webpack": "2.2.0-rc.2",
     "webpack-bundle-analyzer": "^2.2.1"
   }
