@@ -1,0 +1,15 @@
+{
+  "name": "bundle-sizes-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack -p --profile --json > stats.json && webpack-bundle-analyzer stats.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "2.2.0-rc.2",
+    "webpack-bundle-analyzer": "^2.2.1"
+  }
+}
